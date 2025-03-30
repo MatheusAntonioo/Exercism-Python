@@ -66,4 +66,3 @@ def fail_safe(temperature, neutrons_produced_per_second, threshold):
     else:
         return "DANGER"
     
-print(fail_safe(1000, 30, 5000))
