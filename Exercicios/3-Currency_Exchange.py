@@ -67,6 +67,3 @@ def exchangeable_value(budget, exchange_rate, spread, denomination):
     exchange_value = budget / actual_exchange
     leftover_amount = denomination * (exchange_value // denomination)
     return int(leftover_amount)
-
-print(exchangeable_value(127.25, 1.20, 10, 20))
-print(exchangeable_value(127.25, 1.20, 10, 5))
