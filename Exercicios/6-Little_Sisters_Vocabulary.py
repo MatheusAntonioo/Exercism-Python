@@ -51,6 +51,3 @@ def adjective_to_verb(sentence, index):
     if verb[-1] == ".":
         verb = verb[:-1]
     return f"{verb}en"
-
-print(adjective_to_verb('I need to make that bright.', -1 ))
-print(adjective_to_verb('It got dark as the sun set.', 2))
