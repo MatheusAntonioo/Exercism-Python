@@ -29,7 +29,7 @@ def check_sentence_ending(sentence):
 Para fazer o artigo parecer profissional, espaçamentos desnecessários precisam ser removidos. Implemente a função clean_up_spacing()que recebe sentencecomo parâmetro. A função deve remover espaços em branco extras no início e no fim da frase, retornando uma frase nova e atualizada str.
 """
 
-def clean_upspacing(sentence):
+def clean_up_spacing(sentence):
     return sentence.strip()
 
 
@@ -40,5 +40,3 @@ Para tornar o artigo ainda melhor , você pode substituir alguns dos adjetivos p
 
 def replace_word_choice(sentence, old_word, new_word):
     return sentence.replace(old_word, new_word)
-
-print(replace_word_choice("I bake good cakes.", "good", "amazing"))
